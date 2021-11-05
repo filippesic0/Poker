@@ -21,7 +21,7 @@ public class Main
 	
 	public static void main(String[] args) throws Exception
 	{	time();
-		pracenje=1;//0 - ne ispisuje se ništa; 1 - ispisuje se sve; 2 - pritiskaju se enteri da se prati igra;
+		pracenje=2;//0 - ne ispisuje se ništa; 1 - ispisuje se sve; 2 - pritiskaju se enteri da se prati igra;
 		svevreme.UcitajPodatke("");
 	//	tridana.UcitajPodatke(" posle 3 dana rada");
 	//	Podaci.PocniUcenje();

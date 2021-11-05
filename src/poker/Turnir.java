@@ -44,7 +44,7 @@ public class Turnir
 			/*char ime[20];
 			sprintf_s(ime,"igrac %d",i+1);*/
 			String ime="igrac "+(i+1);
-			Igrac novi=new Igrac(buyin,ime,this);
+			Igrac novi=new Igrac(buyin,ime,this,Main.svevreme);
 			igraci.add(novi);
 		}
 		int rruka=1;
